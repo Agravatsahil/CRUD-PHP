@@ -45,21 +45,25 @@ crud_project/
 
 
 #Overview:
+
 This project aims to develop a web application using PHP, HTML, CSS, and MySQL (managed via XAMPP) to perform CRUD operations (Create, Read, Update, Delete) along with file uploading functionality. The application allows users to interact with a database to manage records and upload associated files.
 
 #Features:
 
 #CRUD Operations:
+
 Create: Users can add new records to the database by providing necessary details via a form.
 Read: Users can view existing records from the database, displaying them in a tabular format.
 Update: Users can modify existing records by editing their details through an update form.
 Delete: Users can remove records from the database.
 
 #File Upload:
+
 Users can upload files (such as images, documents, etc.) associated with each record.
 Uploaded files are stored in a designated folder on the server, while file paths are stored in the database.
 
 #Technologies Used:
+
 XAMPP: XAMPP is used as a local development environment to run Apache, MySQL, PHP, and Perl on a single machine. It provides an easy way to set up a web server environment for PHP-based applications.
 
 PHP: PHP is used for server-side scripting to handle form submissions, interact with the database, and manage file uploads.
@@ -80,6 +84,7 @@ Table 1: register (id,firstname,lastname,email,gender,password)->//ID is autoinc
 Table 2: fileupload (image)
 
 ->Backend Development:
+
 │
 ├── css/
 │    └── style.css
