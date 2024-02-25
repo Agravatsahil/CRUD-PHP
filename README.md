@@ -1,5 +1,5 @@
 # CRUD-PHP
-CRUD & fileupload project
+CRUD & fileupload project with database
 
 # CRUD-PHP
 
